@@ -12,7 +12,7 @@ module.exports = {
         'pinterest/no-goog-require': 2,
         'pinterest/no-invalid-binds': 2,
         'pinterest/no-jquery-outside-of-render': 2,
-        'pinterest/no-jquery-var-without-$': 2,
+        'pinterest/no-jquery-var-without-$': 0,
         'pinterest/no-listen-childListen-bind': 2,
         'pinterest/no-module-factory-load': 2,
         'pinterest/no-module-member-variables': 0,
