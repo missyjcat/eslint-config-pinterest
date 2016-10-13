@@ -16,7 +16,7 @@ module.exports = {
         'key-spacing': ["error", { "afterColon": true }],
         'keyword-spacing': ["error", { "before": true, "after": true }],
         'max-len': [2, 120, 4, {
-            "ignorePattern": "^(import\\s.+)|(\\s*(var\\s.+=\\s*)?require\\s*\\(.+)$"
+            "ignorePattern": "^(import\\s.+)|(\\s*(var\\s.+=\\s*)?require\\s*\\(.+)$|(jest.(un)?mock\\()"
         }],
         'new-cap': 0,
         'no-alert': 2,
