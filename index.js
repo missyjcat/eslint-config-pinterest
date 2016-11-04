@@ -56,6 +56,8 @@ module.exports = {
         'func-names': 0,
         // autofixer for brace-style won't fix all issues
         'brace-style': 0,
+        // keep it as a warning. Doesn't work well with flow
+        'arrow-parens': 1,
         'prefer-spread': 0,
         // autofixer breaks code
         'prefer-template': 0,
