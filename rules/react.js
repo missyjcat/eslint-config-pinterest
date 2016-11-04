@@ -36,8 +36,5 @@ module.exports = {
         'pinterest/no-dynamic-i18n-calls': 2,
         // Enforce no enzyme.mount usage
         'pinterest/no-enzyme-mount': 2,
-        // // Enforce component methods order
-        // // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
-        'react/sort-comp': [1],
     }
 };
