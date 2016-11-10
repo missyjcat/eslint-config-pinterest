@@ -87,7 +87,7 @@ module.exports = {
         'global-require': 0,
         'import/no-dynamic-require': 0,
         'no-extra-boolean-cast': 0,
-        'no-plusplus': 0,
+        'no-plusplus': 1,
         'no-restricted-syntax': 0,
         'one-var': 0,
         'one-var-declaration-per-line': 0,
