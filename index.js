@@ -30,13 +30,11 @@ module.exports = {
         'no-shadow': 0,
         'no-underscore-dangle': 0,
         'no-unused-vars': [2, {'vars': 'all', 'args': 'none'}],
-        'prefer-const': ["error", {'destructuring': 'all', 'ignoreReadBeforeAssign': true}],
-        'prefer-arrow-callback': 0,
+        'prefer-const': 1,
+        'prefer-arrow-callback': 1,
         'quotes': [2, 'single'],
-        'semi': [2, 'always'],
-        'semi-spacing': [0, {'before': false, 'after': true}],
-        'space-infix-ops': 2,
-        'space-unary-ops': 0,
+        'semi-spacing': 1,
+        'space-unary-ops': 1,
         'pinterest/sort-imports': ['error', {
             'ignoreCase': true,
             'ignoreMemberSort': false,
@@ -58,7 +56,6 @@ module.exports = {
         'brace-style': 0,
         // keep it as a warning. Doesn't work well with flow
         'arrow-parens': 1,
-        'prefer-spread': 0,
         // autofixer breaks code
         'prefer-template': 0,
         'no-else-return': 0,
