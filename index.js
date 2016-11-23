@@ -6,13 +6,11 @@ module.exports = {
     parser: 'babel-eslint',
     rules: {
         'camelcase': 0,
-        'comma-dangle': 0,
+        'comma-dangle': 1,
         'consistent-return': 0,
-        'curly': 2,
-        'dot-notation': 0,
-        'eol-last': 0,
+        'dot-notation': 1,
+        'eol-last': 1,
         'global-strict': 0,
-        'indent': ['error', 2, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
         'max-len': [2, 120, 4, {
             "ignorePattern": "^(import\\s.+)|(\\s*(var\\s.+=\\s*)?require\\s*\\(.+)$|(jest.(un)?mock\\()"
         }],
@@ -33,14 +31,16 @@ module.exports = {
         'prefer-const': 1,
         'prefer-arrow-callback': 1,
         'quotes': [2, 'single'],
+        'semi': 1,
         'semi-spacing': 1,
+        'space-infix-ops': 2,
         'space-unary-ops': 1,
         'pinterest/sort-imports': ['error', {
             'ignoreCase': true,
             'ignoreMemberSort': false,
             'memberSyntaxSortOrder': ['none', 'all', 'single', 'multiple']
         }],
-        'strict': 0,
+        'strict': 1,
         'yoda': 2,
         // TODO: these are disabled failing AirBnb rules. Fix and enable.
         // Make sure to delete them in .eslintrc.json files
@@ -49,8 +49,8 @@ module.exports = {
         'import/imports-first': 0,
         'import/no-unresolved': 0,
         'import/extensions': 0,
-        'padded-blocks': 0,
-        'object-shorthand': 0,
+        'padded-blocks': 1,
+        'object-shorthand': 1,
         'func-names': 0,
         // autofixer for brace-style won't fix all issues
         'brace-style': 0,
