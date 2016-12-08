@@ -17,6 +17,7 @@ module.exports = {
         'no-constant-condition': 0,
         'no-empty': 0,
         'no-eq-null': 0,
+        'no-duplicate-imports': 0, 
         'no-extend-native': 0,
         'no-multi-spaces': 0,
         'no-octal-escape': 0,
