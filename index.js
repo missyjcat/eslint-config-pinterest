@@ -75,7 +75,7 @@ module.exports = {
         'no-continue': 1,
         'guard-for-in': 0,
         'no-inner-declarations': 0,
-        'react/jsx-no-bind': 0,
+        'react/jsx-no-bind': 2,
         'react/no-unused-prop-types': 0,
         'react/no-find-dom-node': 0,
         'react/jsx-filename-extension': 0,
