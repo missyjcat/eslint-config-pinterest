@@ -6,7 +6,7 @@ module.exports = {
     parser: 'babel-eslint',
     rules: {
         'camelcase': 0,
-        'consistent-return': 0,
+        'consistent-return': 1,
         'global-strict': 0,
         'max-len': [2, 120, 4, {
             "ignorePattern": "^(import\\s.+)|(\\s*(var\\s.+=\\s*)?require\\s*\\(.+)$|(jest.(un)?mock\\()"
@@ -80,7 +80,7 @@ module.exports = {
         'react/no-unused-prop-types': 0,
         'react/no-find-dom-node': 0,
         'react/jsx-filename-extension': 0,
-        'array-callback-return': 0,
+        'array-callback-return': 1,
         'no-nested-ternary': 0,
         'no-new': 0,
         'no-useless-constructor': 0,
